@@ -1,0 +1,40 @@
+body{
+    margin:0;
+    padding:0;
+    display: flex;
+    align-items: center;
+    height: 100vh;
+    font-family: "Protest Revolution", sans-serif;
+}
+footer{
+    display:flex;
+    background-color: black;
+    justify-content: space-between;
+    padding: 20px 0px;
+}
+#left{
+    width: 60%;
+    /* background-color: burlywood; */
+    display: flex;
+}
+#right{
+    width: 30%;
+    /* background-color: chartreuse; */
+    display: flex;
+    border-left: 2px solid grey;
+}
+ul{
+    list-style-type: none;
+    margin: 0;
+}
+h3{
+    font-size: 15px;
+    color: red;
+}
+li{
+    color: darkgreen;
+}
+a{
+    text-decoration: none;
+    color: darkmagenta;
+}
